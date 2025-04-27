@@ -1,4 +1,4 @@
-# Computational Burst Buffer: A New HPC Storage Paradigm and Its Concept Validation
+# Computational Burst Buffer: A New HPC Storage Paradigm
 This project is a simulation implementation of a computational burst buffer (CBB) based on a computational storage driver (CSD).
 While preparing the artifacts, we deploy CBB prototype on a 16-node cluster using hardware CSDs with a realistic BB-to-PFS bandwidth ratio. Each node features two 2.4 GHz Intel Xeon Silver 4314 CPUs and 128 GB of DDR4 memory, running Ubuntu22.10 with the Linux 5.19.0 kernel.
 
