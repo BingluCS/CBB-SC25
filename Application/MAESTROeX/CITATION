@@ -1,0 +1,187 @@
+MAESTROeX derives from MAESTRO.  When citing the code, please cite the
+two primary alrogithm papers below as well as any of the MAESTRO papers appropriate
+to the discussion.
+
+   @ARTICLE{2019ApJ...887..212F,
+          author = {{Fan}, Duoming and {Nonaka}, Andrew and {Almgren}, Ann S. and
+            {Harpole}, Alice and {Zingale}, Michael},
+           title = "{MAESTROeX: A Massively Parallel Low Mach Number Astrophysical Solver}",
+         journal = {\apj},
+        keywords = {Stellar convective zones, Hydrodynamics, Computational methods, Nuclear astrophysics, Nucleosynthesis, Nuclear abundances, Physics - Computational Physics, Astrophysics - Solar and Stellar Astrophysics},
+            year = "2019",
+           month = "Dec",
+          volume = {887},
+          number = {2},
+             eid = {212},
+           pages = {212},
+             doi = {10.3847/1538-4357/ab4f75},
+   archivePrefix = {arXiv},
+          eprint = {1908.03634},
+    primaryClass = {physics.comp-ph},
+          adsurl = {https://ui.adsabs.harvard.edu/abs/2019ApJ...887..212F},
+         adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+   }
+
+
+    @ARTICLE{2010ApJS..188..358N,
+       author = {{Nonaka}, A. and {Almgren}, A.~S. and {Bell},
+                  J.~B. and {Lijewski}, M.~J. and {Malone}, C.~M. and
+                  {Zingale}, M.},
+	title = "{MAESTRO: An Adaptive Low Mach Number Hydrodynamics
+                  Algorithm for Stellar Flows}",
+      journal = {\apjs},
+    archivePrefix = "arXiv",
+       eprint = {1005.0112},
+     primaryClass = "astro-ph.IM",
+     keywords = {convection, hydrodynamics, methods: numerical,
+                  nuclear reactions, nucleosynthesis, abundances,
+                  supernovae: general, white dwarfs},
+	 year = 2010,
+	month = jun,
+       volume = 188,
+	pages = {358-383},
+	  doi = {10.1088/0067-0049/188/2/358},
+       adsurl = {http://adsabs.harvard.edu/abs/2010ApJS..188..358N},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+    }
+
+
+For the software itself, please cite the JOSS paper:
+
+    @ARTICLE{2019JOSS....4.1757F,
+           author = {{Fan}, Duoming and {Nonaka}, Andrew and {Almgren}, Ann and
+             {Willcox}, Donald and {Harpole}, Alice and {Zingale}, Michael},
+            title = "{MAESTROeX: A Massively Parallel Low Mach Number Astrophysical Solver}",
+          journal = {The Journal of Open Source Software},
+         keywords = {abundances, supernovae, Fortran, Fortran90, nucleosynthesis, C++, Python, Jupyter Notebook, nuclear reactions, hydrodynamics, convection},
+             year = "2019",
+            month = "Nov",
+           volume = {4},
+           number = {43},
+              eid = {1757},
+            pages = {1757},
+              doi = {10.21105/joss.01757},
+           adsurl = {https://ui.adsabs.harvard.edu/abs/2019JOSS....4.1757F},
+          adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+    }
+
+
+
+There are several other papers that may be appropriate to cite,
+depending on which capabilities you are using.  These are discussed
+below.
+
+The development of the low Mach number formulation is described in the
+following papers -- we ask that they be cited if you are discussing
+the low Mach asymptotics or expansion of the background state (paper
+II in particular):
+
+    @ARTICLE{2006ApJ...637..922A,
+       author = {{Almgren}, A.~S. and {Bell}, J.~B. and {Rendleman},
+                  C.~A. and {Zingale}, M.},
+	title = "{Low Mach Number Modeling of Type Ia
+                  Supernovae. I. Hydrodynamics}",
+      journal = {\apj},
+       eprint = {astro-ph/0509892},
+     keywords = {Convection, Hydrodynamics, Methods: Numerical,
+                  Nuclear Reactions, Nucleosynthesis, Abundances,
+                  Stars: Supernovae: General, Stars: White Dwarfs},
+	 year = 2006,
+	month = feb,
+       volume = 637,
+	pages = {922-936},
+	  doi = {10.1086/498426},
+       adsurl = {http://adsabs.harvard.edu/abs/2006ApJ...637..922A},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+    }
+
+    @ARTICLE{2006ApJ...649..927A,
+       author = {{Almgren}, A.~S. and {Bell}, J.~B. and {Rendleman},
+		      C.~A. and {Zingale}, M.},
+	title = "{Low Mach Number Modeling of Type Ia
+		      Supernovae. II. Energy Evolution}",
+      journal = {\apj},
+       eprint = {astro-ph/0606496},
+     keywords = {Convection, Hydrodynamics, Methods: Numerical, Nuclear
+		      Reactions, Nucleosynthesis, Abundances, Stars:
+		      Supernovae: General, Stars: White Dwarfs},
+	 year = 2006,
+	month = oct,
+       volume = 649,
+	pages = {927-938},
+	  doi = {10.1086/507089},
+       adsurl = {http://adsabs.harvard.edu/abs/2006ApJ...649..927A},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+    }
+
+    @ARTICLE{2008ApJ...684..449A,
+       author = {{Almgren}, A.~S. and {Bell}, J.~B. and {Nonaka},
+                  A. and {Zingale}, M.  },
+	title = "{Low Mach Number Modeling of Type Ia
+                  Supernovae. III. Reactions}",
+      journal = {\apj},
+     keywords = {convection, hydrodynamics, methods: numerical,
+                  nuclear reactions, nucleosynthesis, abundances,
+                  supernovae: general, white dwarfs },
+	 year = 2008,
+	month = sep,
+       volume = 684,
+	  eid = {449-470},
+	pages = {449-470},
+	  doi = {10.1086/590321},
+       adsurl = {http://adsabs.harvard.edu/abs/2008ApJ...684..449A},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+    }
+
+
+If you use diffusion, we appreciate citing the following paper which
+introduced the diffusion algorithm:
+
+    @ARTICLE{2011ApJ...728..118M,
+       author = {{Malone}, C.~M. and {Nonaka}, A. and {Almgren},
+                  A.~S. and {Bell}, J.~B. and {Zingale}, M.},
+	title = "{Multidimensional Modeling of Type I X-ray
+                  Bursts. I. Two-dimensional Convection Prior to the
+                  Outburst of a Pure $^{4}$He Accretor}",
+      journal = {\apj},
+    archivePrefix = "arXiv",
+       eprint = {1012.0609},
+     primaryClass = "astro-ph.HE",
+     keywords = {convection, hydrodynamics, methods: numerical, stars:
+                  neutron, X-rays: bursts},
+	 year = 2011,
+	month = feb,
+       volume = 728,
+	  eid = {118},
+	pages = {118},
+	  doi = {10.1088/0004-637X/728/2/118},
+       adsurl = {http://adsabs.harvard.edu/abs/2011ApJ...728..118M},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+    }
+
+
+If you are dealing with a spherical geometry, we appreciate citing
+this paper, which describes the spherical geometry:
+
+    @ARTICLE{2009ApJ...704..196Z,
+       author = {{Zingale}, M. and {Almgren}, A.~S. and {Bell},
+                  J.~B. and {Nonaka}, A. and {Woosley}, S.~E.},
+	title = "{Low Mach Number Modeling of Type IA
+                  Supernovae. IV. White Dwarf Convection}",
+      journal = {\apj},
+    archivePrefix = "arXiv",
+       eprint = {0908.2668},
+     primaryClass = "astro-ph.HE",
+     keywords = {convection, hydrodynamics, methods: numerical,
+                  nuclear reactions, nucleosynthesis, abundances,
+                  supernovae: general, white dwarfs},
+	 year = 2009,
+	month = oct,
+       volume = 704,
+	pages = {196-210},
+	  doi = {10.1088/0004-637X/704/1/196},
+       adsurl = {http://adsabs.harvard.edu/abs/2009ApJ...704..196Z},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+    }
+
+
